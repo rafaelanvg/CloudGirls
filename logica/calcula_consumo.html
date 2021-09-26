@@ -1,0 +1,65 @@
+<h3>Álcool ou Gasolina?</h3>
+
+<!-- Resolvendo o problema: 
+
+Seu carro tem um tanque de 40 litros.
+
+Com gasolina e usando todo o tanque você fez um caminhoComGasolina de 480 quilômetros. Qual é o consumoDeGasolina? Para calculá-lo, divida a distância percorrida pela quantidade de litros gastos. Imprima o valor utilizando document.write. Organize as contas em variáveis.
+
+Com álcool, um tanque de 40 litros fez um caminhoComAlcool de 300 quilômetros. Qual é o consumoDeAlcool? 
+
+Observações: 
+Criar uma variável: 
+tanque
+var caminhoComGasolina = 480
+var consumoDeGasolina = 480/40;
+var caminhoComAlcool = 300;
+
+Dividir a distância percorrida pela quantidade de litros para saber o consumo, pois a quantidade de litros gastos é igual ao tanque já que foi usado todo o tanque
+
+Para calcular o consumo de álcool usar tanque de 40 litros com a mesma varíavel -->
+
+
+<meta charset="UTF-8">
+
+<h3>Álcool ou Gasolina?</h3>
+
+<script>
+    var tanque = 40;
+    var caminhoComGasolina = 480;
+    var consumoDeGasolina = 480/40;
+
+    document.write("O consumo de gasolina é " + consumoDeGasolina);
+
+    var caminhoComAlcool = 300;
+    var consumoDeAlcool = caminhoComAlcool/tanque;
+
+    document.write("<br>");
+
+    document.write("O consumo de álcool é " + consumoDeAlcool);
+
+</script>
+
+<!-- Adicionar as unidades. Como o caminho foi dado em quilômetros e o tanque em litros, ao dividir caminho por tanque, temos quilômetro por litro ou km/L -->
+
+<meta charset="UTF-8">
+
+<h3>Álcool ou Gasolina?</h3>
+
+<script>
+
+var tanque = 40;
+
+var caminhoComGasolina = 480;
+var consumoDeGasolina = caminhoComGasolina/tanque;
+
+var caminhoComAlcool = 300;
+var consumoDeAlcool = caminhoComAlcool/tanque;
+
+document.write("O consumo de Gasolina é " + consumoDeGasolina + " km/L");
+
+document.write("<br>");
+
+document.write("O consumo de Álcool é " + consumoDeAlcool + " km/L");
+
+</script>
