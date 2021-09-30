@@ -604,52 +604,32 @@ ano = 2017;
 <br>
 <br>
 
-<!-- Qual a diferença de idade entre eu e meu irmão? Eu: 18 anos e Meu irmão: 15 anos -->
-
 <meta charset="UTF-8">
+
 <script>
-    function pulaLinha() {
-        document.write("<br>");
-    }
+	
+	function pulaLinha() {
 
-    function mostra(frase) {
-        document.write(frase);
-    }
+		document.write("<br>");	
+		document.write("<br>");	
+	}
 
-    var minhaIdade = 18;
-    var idadeIrmao = 15;
+	function mostra(frase) {
 
-    mostra("Nossa diferença de idade é " + (minhaIdade - idadeIrmao));
-    pulaLinha();
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var ano = 2016;
+	
+	mostra("Flávio tem " + (ano - 1977) + " anos");
+
+	mostra("Joaquim tem " + (ano - 1996) + " anos");
+
+	ano = 2017;
+	
+	mostra("Barney tem " + (ano - 1976) + " anos");
+
 </script>
 
-<br>
-<br>
 
-<!-- Em média um casal tem filhos quando atinge 28 anos. Se seguir essa média, se os portugueses chegaram em 1500 no Brasil, então, a primeira geração de brasileiros surgiu em 1528, a segunda em 1556 e assim por diante. Desde 1500 até o ano atual, quantas gerações se passaram? 
-
-Usar variavéis:
-
-var idadeMediaQuandoTemFilhos = 28;
-var anoAtual = 2016;
-var quantidadeDeGeracoes = (anoAtual - 1500) / idadeMediaQuandoTemFilhos; mostra(quantidadeDeGeracoes); -->
-
-<meta charset="UTF-8">
-
-    <script>
-        function pulaLinha() {
-            document.write("<br>");
-        }
-
-        function mostra(frase) {
-            document.write(frase);
-            pulaLinha();
-        }
-
-        var idadeMediaQuandoTemFilhos = 28;
-        var anoAtual = 2016; 
-
-        var quantidadeDeGeracoes = (anoAtual - 1500) / idadeMediaQuandoTemFilhos;
-
-        mostra(quantidadeDeGeracoes);
-    </script>
