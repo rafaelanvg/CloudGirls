@@ -1,4 +1,4 @@
-# Mentoria-Cloud Girls-Curso Alura
+# Mentoria Cloud Girls | Curso Alura
 <br>
 
 Repositório criado para os exercícios e  projetos da Mentoria Cloud Girls.
