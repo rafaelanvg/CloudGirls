@@ -3,9 +3,9 @@
 
 Repositório criado para os exercícios e  projetos da Mentoria Cloud Girls.
 
-##Formações:
+## Formações:
 
-###Oracle ONE: Lógica de Programação
+### Oracle ONE: Lógica de Programação
 
 - Lógica de programação I: Os primeiros programas com Javascript e HTML
 - Lógica de programação II: pratique com desenhos, animações e um jogo
@@ -14,7 +14,7 @@ Repositório criado para os exercícios e  projetos da Mentoria Cloud Girls.
 - JavaScript: Programando na linguagem da web
 - Projeto Oracle ONE Lógica de Programação
 
-###Oracle ONE: Front-end
+### Oracle ONE: Front-end
 
 - HTML5 e CSS3 parte 3: Trabalhando com formulários e tabelas
 - HTML5 e CSS3 parte 4: Avançando no CSS
@@ -24,7 +24,7 @@ Repositório criado para os exercícios e  projetos da Mentoria Cloud Girls.
 - Layouts Responsivos: Trabalhando com layouts mobile
 - Front-end: Projeto de conclusão
 
-###Oracle ONE: Java
+### Oracle ONE: Java
 
 - Java JRE e JDK: Escreva o seu primeiro código com Eclipse
 - Java OO: Introdução à Orientação a Objetos
