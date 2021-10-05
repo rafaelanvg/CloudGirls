@@ -6,19 +6,15 @@ Colocar document.querySelector() o parâmetro 'canvas' entre aspas -->
 <script>
 
     var tela = document.querySelector('canvas');
-
     // Utilizar o getContext() com 2d como parâmetro.
-
     var pincel = tela.getContext('2d');
-
     // Inserir entre os parênteses a instrução pincel.fillRect() e para indicar qual a tinta indicar o fillStyle: (o fillStyle deve vir antes do fillRect) e utilizar o 'lightgrey'
-
     pincel.fillStyle = 'lightgrey';
     pincel.fillRect(0, 0, 600, 400);
 
     pincel.fillStyle = 'green';
     pincel.fillRect(0, 0, 200, 400);
-
+    
     pincel.fillStyle = 'red';
     pincel.fillRect(400, 0, 200, 400);
     // Utilizar a função moveTo para começar a fazer o triângulo
