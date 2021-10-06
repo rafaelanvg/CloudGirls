@@ -1,3 +1,5 @@
+<!-- Fazendo a bolinha pulsar -->
+
 <canvas width="600" height="400"></canvas>
 
 <script>
@@ -7,9 +9,9 @@
     pincel.fillStyle = 'lightgray';
     pincel.fillRect(0, 0, 600, 400);
 
-    function desenhaCirculo(x, y, raio) {
+    function desenhaCirculo(x, y, raio, cor) {
 
-        pincel.fillStyle = 'blue';
+        pincel.fillStyle = cor;
         pincel.beginPath();
         pincel.arc(x, y, raio, 0, 2 * Math.PI);
         pincel.fill();
@@ -20,25 +22,26 @@
         pincel.clearRect(0, 0, 600, 400);
     }
 
-    var x = 20; // o importante é que seja declarado fora da função atualizaTela.
+    var raio = 19;
 
-    var sentido = 1;
+    var fatorCrescimento = 0;
 
     function atualizaTela() {
 
         limpaTela();
-        // Tudo que vai, volta
-        if( x > 600) {
-            sentido = -1;
-        } else if (x < 0) {
-            sentido = 1;
-        } 
 
-        desenhaCirculo(x, 20, 10);
-        x = x + sentido;
+        if(raio > 30) {
+            fatorCrescimento = -1;
+        } else if (raio < 20) {
+            fatorCrescimento = 1;
+        }
+
+        raio = raio + fatorCrescimento;
+
+        desenhaCirculo(300, 200, raio, 'blue');
+
     }
 
-    setInterval(atualizaTela, 10);
-        
+    setInterval(atualizaTela, 20);
 
 </script>
