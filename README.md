@@ -40,4 +40,4 @@ Repositório criado para os exercícios e  projetos da Mentoria Cloud Girls.
 
 Ao final do programa, além de todo o percurso de aprendizagem, foi entregue um projeto de conclusão de curso. (Desenvolvimento de um site para uma instituição de caridade)
 
-Link do Site: https://www.crechetiasol.com.br/
+- Link do Site: https://www.crechetiasol.com.br/
