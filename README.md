@@ -36,3 +36,8 @@ Repositório criado para os exercícios e  projetos da Mentoria Cloud Girls.
 - Java Collections: Dominando Listas, Sets e Mapas
 - Java moderno: Tire proveito dos novos recursos do Java 8
 
+### Projeto Final do Programa da Mentoria Cloud Girls
+
+Ao final do programa, além de todo o percurso de aprendizagem, foi entregue um projeto de conclusão de curso. (Desenvolvimento de um site para uma instituição de caridade)
+
+Link do Site: https://www.crechetiasol.com.br/
