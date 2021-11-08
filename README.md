@@ -38,6 +38,13 @@ Repositório criado para os exercícios e  projetos da Mentoria Cloud Girls.
 
 ### Projeto Final do Programa da Mentoria Cloud Girls
 
-Ao final do programa, além de todo o percurso de aprendizagem, foi entregue um projeto de conclusão de curso. (Desenvolvimento de um site para uma instituição de caridade)
+Ao final do programa, além de todo o percurso de aprendizagem, foi entregue um projeto de conclusão de curso. 
 
-- Link do Site: https://www.crechetiasol.com.br/
+Desenvolvimento de um site para uma instituição de caridade (Creche Tia Sol - Escola Infantil Comunitária Tia Sol | localizada: Salvador/BA). Instituição que atende famílias que precisam trabalhar e deixar seus filhos seguros com preços acessíveis.
+
+Algumas ferramentas e linguagem que foram utilizadas: HTML; CSS; JavaScript; Bootstrap; VS Code; Github. O projeto final da "mentoria" foi desenvolvido de forma voluntária por nós meentes da turma 07 do Cloud Girls, que além de promover a diversidade na área de tecnologia, também promove ações sociais como essa.
+
+O projeto final da "mentoria" foi desenvolvido de forma voluntária por nós meentes da turma 07 do Cloud Girls, que além de promover a diversidade na área de tecnologia, também promove ações sociais como essa.
+
+Site do Projeto: https://www.crechetiasol.com.br/ 
+Link do repositório: https://github.com/cloudgirlsin/CrecheTiaSol
